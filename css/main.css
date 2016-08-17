@@ -18,20 +18,26 @@
   border: 3px solid white;
   color: white;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: full-width;
+  font-size: 25px;
   width: 85%;
   margin: auto;
 }
 
 .product-container {
-  height: 45vh;
+  height: 45%;
   width: 90%;
   margin: 0 auto 25px;
   background: #ccc;
 
 }
 
-.item-image {
+.item-image-small {
+    width: 100%;
+    display: block;
+}
+
+.item-image-large {
     width: 100%;
     display: block;
 }
